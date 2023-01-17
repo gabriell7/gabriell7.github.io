@@ -1,30 +1,89 @@
 body {
-    background-image:url("./kuvat/kuva.png");
+   background-image:url("./kuvat/h2tausta.jpg");
 
- }
+}
 
- header {
+header {
 
-    background-color: rgba(54, 153, 71, 0.836);
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
- }
+   background-color: rgba(54, 153, 71, 0.836);
+   padding: 20px;
+   text-align: center;
+   font-size: 20px;
+   border-radius: 15px;
+}
 
- footer {
+footer {
 
-    background-color: rgba(54, 153, 71, 0.836);
-    padding: 20px;
-    text-align: center;
-    font-size: 20px;
+   background-color: rgba(54, 153, 71, 0.836);
+   padding: 20px;
+   text-align: center;
+   font-size: 20px;
+   border-radius: 15px;
+}
+
+nav {
+
+   background-color: rgba(38, 138, 53, 0.836);
+   padding: 0px;
+   text-align: center;
+   font-size: 20px;
+   border-radius: 15px;
+}
+
+article {
+ 
+  padding: 5px;
+  width: 80%;
+  background-color: #15bd39d2;
+  border-radius: 15px;
+  list-style-type:square;
+}
+table, th, td {
+   border: 2px solid black;
+   border-collapse: collapse;
  }
  
- nav {
+ th {
 
-    background-color: rgba(38, 138, 53, 0.836);
-    padding: 0px;
-    text-align: center;
-    font-size: 20px;
+   background-color: #1bd142e5;
  }
 
- 
+ td {
+
+   background-color: #0c8f28dc;
+ }
+
+ font {
+   
+   font-family: 'Lato', sans-serif;
+   font-family: 'Oswald', sans-serif;
+   text-shadow: 2px 2px #0a7522
+ }
+
+ .column {
+   float: left;
+   width: 33.33%;
+   padding: 5px;
+   width: 200px;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+
+ th, td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+ }
+
+
+ form {
+
+   padding: 5px;
+   width: 15%;
+   background-color: #12912dd2;
+   border-radius: 15px;
+ }
+

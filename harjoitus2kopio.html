@@ -5,12 +5,12 @@
 <header>
     <meta charset="UTF-8">
     <script type="text/javascript" src="harjoitus2kopio.js"></script>
-   <h1>Ravintola Oula</h1>
+   <font><h1>Ravintola Oula</h1></font>
     <p><img src="./kuvat/" alt =""></p>
 </header>
 
 
-
+<section>
 <body>
     <nav>
         <ul>
@@ -19,83 +19,97 @@
           <li><a href="#Pöytävaraus">Pöytävaraus</a></li>
         </ul>
       </nav>
-    
-
-      
-<h2 id="Ruokalista">Ruokalista</h2>  
-
-<h3><strong>Maanantai </strong></h3>
-
-<p>Juusto-vihanneskeittoa ja kokin sämpylä
-Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia
-Marjakiisseliä ja hunajakermavaahtoa </p>
 
 
-<h3><strong>Tiistai <strong></h3>
+      <div class="row">
+        <div class="column">
+          <img src="./kuvat/vihanneskeitto.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./kuvat/chicken-breast.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+          <img src="./kuvat/kreikkalainen_kanasalaatti3.jpg"  style="width:100%">
+        </div>
+        <div class="column">
+            <img src="./kuvat/Kermainen-rapukeitto.jpg"  style="width:100%">
+          </div>
+          <div class="column">
+            <img src="./kuvat/savukalasalaatti.jpg.crdownload"  style="width:100%">
+          </div>
+      </div>
 
-<p> Kana-fetajustosalaattia ja kokin sämpylä
-Paistettua punakampelaa, pinaattikastiketta ja perunamuusia
-Pannukakkua, mansikkahilloa ja kermavaahtoa </p>
-
-
-<h3><strong>Keskiviikko</strong></h3>
-
-<p> Tomaatti-yrttikeittoa ja kokin sämpylä
-Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia
-Omenapiirakkaa ja vaniljakastiketta</p>
-
-
-<h3> <strong>Torstai</strong></h3> 
-
-<p> Rapukeittoa ja kokin sämpylä
-Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja
-Hedelmäsalaattia ja kinuskikastiketta </p>
+ <article>
+ <td><h2 id="Ruokalista">Ruokalista</h2>  </td>
 
 
 
 
-<h3> <strong> Perjantai</strong></h3>
 
-<p> Savulohisalaatti ja kokin sämpylä
-Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia
-Suklaamousse </p>
+        <h3><strong>Maanantai </strong></h3>
 
 
+<ul  style="list-style-type:square"  >
+<td>
+        <li>Juusto-vihanneskeittoa ja kokin sämpylä
+       <li> Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia</li>
+        <li> Marjakiisseliä ja hunajakermavaahtoa </li>
+        
 
+        <h3><strong>Tiistai </strong></h3>
+
+        <li> Kana-fetajustosalaattia ja kokin sämpylä</li>
+        <li> punakampelaa, pinaattikastiketta ja perunamuusia,</li>
+        <li> mansikkahilloa ja kermavaahtoa </li>
+        
+
+        <h3><strong>Keskiviikko</strong></h3>
+
+        <li>Tomaatti-yrttikeittoa ja kokin sämpylä</li>
+        <li>Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia</li>
+        <li>Omenapiirakkaa ja vaniljakastiketta</li>
+         
+
+
+        <h3> <strong>Torstai</strong></h3> 
+
+        <li> Rapukeittoa ja kokin sämpylä</li>
+        <li> Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja</li>
+        <li>  Hedelmäsalaattia ja kinuskikastiketta </li>
+        
+
+
+
+        <h3> <strong> Perjantai</strong></h3>
+
+        <li> Savulohisalaatti ja kokin sämpylä</li>
+        <li>Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia</li>
+        <li>Suklaamousse </li>
+</td>         
+</ul>
+</article>
+</section>
 
 <h2 id="Aukioloajat">Aukioloajat</h2>
     
-  
-<tr>
-    <h2>Maanantai - Perjantai</h2> 
-    
-<p>10:30-15:00</p>
-
-    <h2>lauantai</h2>
-
-    <p>11:00-15:00</p>
-
-    <h2>Pe ja La</h2>
-
-    <p>17:00-21:00 à la carte -lista</p>
-</tr>
+<table style="width:80%">
+    <tr>
+      <th>Maanantai - Perjantai</th>
+      <th>lauantai</th> 
+      <th>Pe ja La</th>
+    </tr>
+    <tr>
+      <td>10:30-15:00</td>
+      <td>11:00-15:00</td>
+      <td>17:00-21:00 à la carte -lista</td>
+    </tr>
+  </table>
 
 
 
 
-<p>Henkilö</p>
-<input id="luku1"></input>
 
-<p>luku2</p>
 
-<input id="luku2"></input>
-<select id="lasku2">
-    <option value="summa">summa</option>
-    <option value="vähennys">vähennys</option>
-    <option value="kerto">kerto</option>
-    <option value="jakolasku">jakolasku</option>
-</select>
-<button onClick="laske()">laske</button>
 
 
 <h2 id="Pöytävaraus">Pöytävaraus</h2>
@@ -121,8 +135,8 @@ Suklaamousse </p>
 
 </form>
 
-</body>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1591.1187861908036!2d25.724699200000003!3d66.497143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b4bed11188d49%3A0x1657bd88c2a942ae!2sHallituskatu%2012%2C%2096100%20Rovaniemi!5e0!3m2!1sfi!2sfi!4v1673437628657!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 
 
 <footer>
@@ -135,4 +149,9 @@ Hallituskatu 12
 <p> Puh. (016) 555 4755
 Fax (016) 555 4756
 E-Mail: ravintola.oula@oulanet.fi</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1591.1187861908036!2d25.724699200000003!3d66.497143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x442b4bed11188d49%3A0x1657bd88c2a942ae!2sHallituskatu%2012%2C%2096100%20Rovaniemi!5e0!3m2!1sfi!2sfi!4v1673437628657!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </footer>
+
+</body>
+
+</html>
