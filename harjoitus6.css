@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    color: aliceblue;
+  }
+
+  header {
+    background: #0a17ce;
+    height: 10vh;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    height: 100%;
+  }
+  
+  nav {
+    background: #0980b8;
+    text-align: center;
+  }
+  
+  article {
+    flex: 2;
+    background: #4fa6d8;
+    text-align: center;
+    
+  }
+  
+  aside {
+    flex: 0,5;
+    background: #25157a;
+    text-align: center;
+    width: 20%;
+  }
+  
+  footer {
+    background: #160652;
+    height: 7vh;
+    text-align: center;
+  }
+  
+  header,
+  footer,
+  article,
+  nav,
+  aside {
+    padding: 1em;
+  }
+
+  img {
+
+     width: 25%;
+  }
