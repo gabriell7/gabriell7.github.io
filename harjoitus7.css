@@ -50,7 +50,7 @@ nav {
     bottom: 18px;   
     background-color: #3A405A;
     color: #ffffff;
-    width: 99.1%;
+    width: 99%;
     height: 30%;
     opacity: 0.7;
   }
@@ -85,16 +85,44 @@ nav {
   
   }
 
-  .column {
-    width: 20%;
-    padding: 5px;
-    text-align: center;
-  }
+
  
   .border {
+
+    border: #ffffff 1px groove ;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 0px;
+
+  }
+
+  .border1 {
+
+    border: 1px groove ;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 3px;
+    
+  }
+
+  .border2 {
 
     border: 1px groove ;
     border-width: 2px;
     border-radius: 7px;
     padding: 0px;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 110px;
+    grid-template-columns: auto auto auto;
+    background-color: #f9feff;
+    padding: 3px;
+  }
+  
+  .grid-item {
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    text-align: center;
   }
