@@ -24,7 +24,7 @@ body {
 
 .thumbnail {
 
-    width: 400px;
+    width: 335px;
 
 
 }
@@ -93,6 +93,8 @@ nav {
  
   .border {
 
-    border: 3px groove #3A405A;
-    border-width: 5px
+    border: 1px groove ;
+    border-width: 2px;
+    border-radius: 7px;
+    padding: 0px;
   }
