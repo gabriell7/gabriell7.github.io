@@ -126,3 +126,17 @@ nav {
     padding: 0px;
     text-align: center;
   }
+
+  body, h1, h2, h3, h4, h5, h6  {
+    font-family: "Segoe UI";
+  }
+
+  @media screen and (max-width: 600px) {
+    .border,.border1 , .border2,.grid-container{
+      width: 100%; 
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
