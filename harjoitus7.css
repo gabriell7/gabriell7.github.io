@@ -24,7 +24,7 @@ body {
 
 .thumbnail {
 
-    width: 300px;
+    width: 400px;
 
 
 }
@@ -86,7 +86,13 @@ nav {
   }
 
   .column {
-    width: 33.33%;
+    width: 20%;
     padding: 5px;
+    text-align: center;
   }
  
+  .border {
+
+    border: 3px groove #3A405A;
+    border-width: 5px
+  }
